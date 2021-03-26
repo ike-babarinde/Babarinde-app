@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmls:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_About_data"
+            android:title="About Data"/>
+
+        <item
+            android:id="@+id/nav_About_App"
+            android:title="About App"/>
+
+        <item
+            android:id="@+id/nav_Data_Visualization"
+            android:title="Data Visualization"/>
+
+    </group>
+
+</menu>
